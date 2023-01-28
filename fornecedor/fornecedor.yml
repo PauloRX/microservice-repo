@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/fornecedor
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: p4ul0x4v13r
+    username: root
